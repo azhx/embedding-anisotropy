@@ -4,6 +4,7 @@ en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_
 ipython==7.23.1
 pandas==1.2.4
 spacy==3.0.6
+scispacy
 tensorboard==2.5.0
 torch==1.8.1
 torchvision==0.9.1
