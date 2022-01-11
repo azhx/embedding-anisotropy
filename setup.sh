@@ -1,11 +1,6 @@
 #!/bin/bash -e
 # -e exists immediately if pipeline returns non zero status
 # https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#The-Set-Builtin
-
-apt-get update
-
-apt-get install -y \
-    vim \
   
 conda create -n alex python=3.9 -y
 conda init
