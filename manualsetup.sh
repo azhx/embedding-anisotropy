@@ -6,6 +6,8 @@ apt-get update
 
 apt-get install -y \
     vim \
+    ncdu \
+    htop 
 
 conda create -n alex python=3.9 -y
 conda init
