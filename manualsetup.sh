@@ -13,7 +13,7 @@ source /opt/conda/etc/profile.d/conda.sh
 conda activate alex
 conda install ipykernel -y
 ipython kernel install --user --name=alex
-conda install -c conda-forge owlready2
+conda install -c conda-forge owlready2 -y
 pip install -r requirements.txt
 git config --global user.email "alexdayouzhuang@gmail.com"
 git config --global user.name "azhx"
